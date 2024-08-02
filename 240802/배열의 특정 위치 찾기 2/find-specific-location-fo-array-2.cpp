@@ -9,7 +9,7 @@ int main() {
     {
         if (i % 2 == 0)
             even_sum += arr[i];
-        else if (i % 2 == 1)
+        else
             odd_sum += arr[i];
     }
     result = (even_sum > odd_sum) ? (even_sum - odd_sum) : (odd_sum - even_sum);
