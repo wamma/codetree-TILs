@@ -6,7 +6,7 @@ int main() {
     cin >> num >> divNum;
 
     int arr[10] = {};
-    while (num > 0)
+    while (num > 1)
     {
         int namuji = num % divNum;
         arr[namuji]++;
