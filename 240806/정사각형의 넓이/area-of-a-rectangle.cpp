@@ -5,8 +5,8 @@ int main() {
     int n;
     cin >> n;
     int res = n * n;
-    cout << res;
+    cout << res << '\n';
     if (n < 5)
-        cout << "tiny";
+        cout << "tiny" << '\n';
     return 0;
 }
